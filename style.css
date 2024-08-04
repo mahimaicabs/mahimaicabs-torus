@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image-container{
+    background-image: url("https://cdn1.matadornetwork.com/blogs/1/2020/08/Taughannock-Falls-Sunset-In-Full-Fall-Colors-1200x853.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.tourism-card{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+.d-flex{
+    flex-direction: column;
+    justify-content: end;
+
+    }
+.heading{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    padding: 20px;
+}
+.paragraph{
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
+}
+.button{
+    background-color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    font-style: italic;
+}
+.bg-container{
+    background-image: url("");
+    height: 170vh;
+    width: 100vw;
+    background-size:cover;
+}
+.vistplaces{
+    background-color: white;
+    color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 28px;
+    padding: 10px;
+}
+.cart-container{
+    background-color: white;
+    border-radius: 8px;
+    margin: 15px;
+    border-radius: 30px;
+    padding: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.cart-container h1{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.cart-container p{
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    font-style: italic;
+}
+.cart-image{
+    width:100px;
+    height:80px;
+}
+.cart-container{
+    flex-direction: row;
+    justify-content:center;
+    padding-right: 10px;
+    padding: 10px;
+}
+
+.bg-cantainer{
+    background-image: url("https://www.pixelstalk.net/nature-backgrounds-free-download/");
+    background-size: cover;
+    height: 100vh;
+}
+.bg-cantainer h1{
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 20px;
+    font-size: 22px;
+}
+.cart-cantainer{
+    border: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.contact_us{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.click_button{
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+}
+
